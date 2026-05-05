@@ -35,6 +35,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://proteomics-ai-integrator.vercel.app",
+        "https://proteomics-ai-integrator-t7cusongq-mpetalcorins-projects.vercel.app",
         frontend_origin,
     ],
     allow_credentials=True,
