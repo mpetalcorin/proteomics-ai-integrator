@@ -15,7 +15,7 @@ import { Brain, Upload, Activity, FileText, Dna } from "lucide-react";
 import { motion } from "framer-motion";
 import "./index.css";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000";
 
 export default function App() {
   const [file, setFile] = useState(null);
